@@ -1,0 +1,9 @@
+[cmdline]
+0=
+
+[Dir Hist New Right Panel]
+0=/root/openresty
+
+[Dir Hist New Left Panel]
+0=/root
+1=/root/openresty

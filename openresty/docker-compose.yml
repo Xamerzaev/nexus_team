@@ -1,0 +1,63 @@
+version: '3.6'
+
+services:
+  backend:
+    build: ./backend
+    restart: always
+    command: bash -c "wait-for-it db:5432 -- python manage.py migrate && gunicorn config.wsgi:application --bind 0.0.0.0:8000"
+    volumes:
+      - ./backend:/app
+    #ports:
+    #  - "8000:8000"
+    depends_on:
+      - db
+    networks:
+      - ingress-routing
+  
+  frontend:
+    restart: always
+    build: ./frontend
+    #ports:
+    #  - "8080:80"
+    networks:
+      - ingress-routing
+
+  db:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_DB: nexusdb
+      POSTGRES_USER: admin@nexusdb
+      POSTGRES_PASSWORD: dc3u8747yf9430sf999___004
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+    networks:
+      - ingress-routing
+
+  openresty:
+    build: .
+    ports:
+      - '80:80'
+      - '443:443'
+    restart: always
+    volumes:
+      - /data/nginx/conf.d:/etc/nginx/conf.d
+      - /data/nginx/sites-enabled:/etc/nginx/sites-enabled
+      - /data/nginx/resty-auto-ssl:/etc/resty-auto-ssl
+      - /data/nginx/geoip:/etc/nginx/geoip
+    healthcheck:
+      test: curl -f http://localhost/health || exit 1
+      interval: 5s
+      timeout: 10s
+      retries: 3
+    networks:
+      - ingress-routing
+
+configs:
+  nginx_cfg:
+    file: /data/nginx/nginx.conf
+  mime.types:
+    file: /data/nginx/mime.types
+
+networks:
+  ingress-routing:
