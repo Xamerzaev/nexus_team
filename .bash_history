@@ -797,15 +797,15 @@ cd app/components/
 ls
 cd Footer/
 ls
-cat index.tsx 
-nano index.tsx 
-nano index.tsx
-cat index.tsx 
+cat page.tsx
+nano page.tsx
+nano page.tsx
+cat page.tsx
 cd ..
 ls
 cd Ourteam/
 ls
-cat index.tsx 
+cat page.tsx
 cd ..
 cd
 cd openresty/
@@ -901,7 +901,7 @@ LS
 ls
 cd Ourteam/
 ls
-cat index.tsx 
+cat page.tsx
 cd ..
 cd public/
 ls
@@ -911,12 +911,12 @@ cd
 cd openresty/
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Ourteam/
-nano index.tsx 
+nano page.tsx
 cd
 cd openresty/
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Ourteam/
-nano index.tsx 
+nano page.tsx
 cd 
 cd openresty/
 docker-compose up -d --build --force-recreate
@@ -998,7 +998,7 @@ docker-compose up -d --build --force-recreate
 cd frontend/app/components/Joinus/
 ls
 cd in
-nano index.tsx 
+nano page.tsx
 cd
 rm nexus/
 rm -rf nexus/
@@ -1006,37 +1006,37 @@ cd openresty/
 docker-compose up -d --build --force-recreate
 cd openresty/frontend/app/components/Aboutus/
 ls
-cat index.tsx 
-nano index.tsx 
+cat page.tsx
+nano page.tsx
 cd ..
 ls
 cd Banner/
-cat index.tsx 
+cat page.tsx
 cd ..
 ls
 cd Digital/
-cat index.tsx 
-nano index.tsx 
+cat page.tsx
+nano page.tsx
 cd ..
 ls
 cd Digital/
-cat index.tsx 
+cat page.tsx
 cd ..
 ls
 cd Beliefs/
-nano index.tsx 
+nano page.tsx
 cd ..
 cd Ourteam/
-nano index.tsx 
+nano page.tsx
 cd
 cd openresty/
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Aboutus/
-nano index.tsx 
+nano page.tsx
 cd ..
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Aboutus/
-nano index.tsx 
+nano page.tsx
 cd ..
 docker-compose up -d --build --force-recreate
 cd frontend/public/images/beliefs/
@@ -1054,7 +1054,7 @@ wget https://www.seerene.com/hubfs/agile%20SOFTWARE%20DEVELOPMENT.svg -O agile.s
 ls
 cd ..
 cd app/components/Ourteam/
-nano index.tsx 
+nano page.tsx
 cd
 cd openresty/
 docker-compose up -d --build --force-recreate
@@ -1071,25 +1071,25 @@ cd openresty/
 docker system prune -a
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Footer/
-nano index.tsx
+nano page.tsx
 cd
 cd openresty/
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Footer/
-cat index.tsx
-nano index.tsx
+cat page.tsx
+nano page.tsx
 cd openresty/
 cd
 cd openresty/
 docker system prune -a
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Footer/
-nano index.tsx
+nano page.tsx
 cd
 cd openresty/
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Footer/
-nano index.tsx
+nano page.tsx
 cd
 cd openresty/
 docker system prune -a
@@ -1097,33 +1097,33 @@ docker-compose up -d --build --force-recreate
 docker system prune 
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Footer/
-nano index.tsx
+nano page.tsx
 cd 
 cd openresty/
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Footer/
-nano index.tsx
+nano page.tsx
 cd
 cd openresty/
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Footer/
-nano index.tsx
+nano page.tsx
 cd
 cd openresty/
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Footer/
-nano index.tsx
+nano page.tsx
 св 
 cd
 cd openresty/
 docker-compose up -d --build --force-recreate
 cd openresty/frontend/app/components/Footer/
-nano index.tsx
+nano page.tsx
 cd ..
 ls
 cd Manage/
-cat index.tsx 
-nano index.tsx 
+cat page.tsx
+nano page.tsx
 cd
 cd openresty/
 docker-xompose up -d --build --force-recreate
@@ -1156,12 +1156,12 @@ ls
 cat Dockerfile 
 cd openresty/frontend/app/components/Footer/
 ls
-cat index.tsx
-nano index.tsx
-cat index.tsx
-nano index.tsx
-cat index.tsx
-nano index.tsx
+cat page.tsx
+nano page.tsx
+cat page.tsx
+nano page.tsx
+cat page.tsx
+nano page.tsx
 cd ..
 ls
 cat globals.css 
@@ -1171,32 +1171,32 @@ cd openresty/
 docker-compose up -d --build --force-recreate
 cd openresty/frontend/app/components/Footer/
 cd frontend/app/components/Footer/
-nano index.tsx
+nano page.tsx
 cd ..
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Footer/
-nano index.tsx
+nano page.tsx
 cd ..
 ls
 cd FAQ/
-nano index.tsx 
-cat index.tsx 
-nano index.tsx 
+nano page.tsx
+cat page.tsx
+nano page.tsx
 cd ..
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Footer/
-cat index.tsx
-nano index.tsx
+cat page.tsx
+nano page.tsx
 cd ..
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Footer/
-nano index.tsx
+nano page.tsx
 cd ..
 ls
 cd Navbar/
 ls
 cat Drawerdata.tsx 
-cat index.tsx 
+cat page.tsx
 ls
 cat Navbar.tsx 
 nano Drawer.tsx 
@@ -1210,19 +1210,19 @@ cd Navbar/
 nano Drawer.tsx 
 cd ..
 cd Footer/
-nano index.tsx
+nano page.tsx
 cd
 cd frontend/app/components/Footer/
 cd openresty/
 cd frontend/app/components/Footer/
-cat index.tsx
-nano index.tsx
+cat page.tsx
+nano page.tsx
 cd
 cd openresty/
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Footer/
-cat index.tsx
-nano index.tsx
+cat page.tsx
+nano page.tsx
 cd
 cd openresty/
 cd frontend/app/components/Footer/
@@ -1232,23 +1232,23 @@ docker-compose up -d --build --force-recreate
 docker rmi $(docker images -q)
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Footer/
-nano index.tsx
-cat index.tsx
-nano index.tsx
+nano page.tsx
+cat page.tsx
+nano page.tsx
 cd
 cd openresty/
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Footer/
-cat index.tsx
-nano index.tsx
-cat index.tsx
-nano index.tsx
+cat page.tsx
+nano page.tsx
+cat page.tsx
+nano page.tsx
 cd
 cd openresty/
 docker rmi $(docker images -q)
 docker-compose up -d --build --force-recreate
 cd frontend/app/components/Footer/
-nano index.tsx
+nano page.tsx
 cd
 cd openresty/
 docker-compose up -d --build --force-recreate

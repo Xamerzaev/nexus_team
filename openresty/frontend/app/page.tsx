@@ -10,24 +10,26 @@ import FAQ from './components/FAQ/index';
 // import Testimonials from './components/Testimonials/index';
 import Joinus from './components/Joinus/index';
 import Insta from './components/Insta/index';
+import Cases from "@/app/cases/page";
 
 
 export default function Home() {
-  return (
-    <main>
-      <Banner />
-      <Aboutus />
-      <Dedicated />
-      <Digital />
-      <Beliefs />
-      {/* <Wework /> */}
-      <Ourteam />
-      {/* <Featured /> */}
-      <Manage />
-      <FAQ />
-      {/* <Testimonials /> */}
-      <Joinus />
-      <Insta />
-    </main>
-  )
+    return (
+        <main>
+            <Banner/>
+            <Aboutus/>
+            <Dedicated/>
+            <Digital/>
+            <Beliefs/>
+            {/* <Wework /> */}
+            <Ourteam/>
+            {/* <Featured /> */}
+            <Manage/>
+            <Cases/>
+            <FAQ/>
+            {/* <Testimonials /> */}
+            <Joinus/>
+            <Insta/>
+        </main>
+    )
 }

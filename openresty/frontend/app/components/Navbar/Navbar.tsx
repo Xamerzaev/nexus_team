@@ -1,8 +1,8 @@
 "use client"
-import { Disclosure } from '@headlessui/react';
+import {Disclosure} from '@headlessui/react';
 import Link from 'next/link';
 import React from 'react';
-import { Bars3Icon } from '@heroicons/react/24/outline';
+import {Bars3Icon} from '@heroicons/react/24/outline';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import Contactusform from './Contactus';
@@ -14,9 +14,10 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-    { name: 'О нас', href: '#aboutus-section', current: false },
-    { name: 'Услуги', href: '#services-section', current: false },
-    { name: 'FAQ', href: '#faq-section', current: false },
+    {name: 'О нас', href: '#aboutus-section', current: false},
+    {name: 'Услуги', href: '#services-section', current: false},
+    {name: 'Кейсы', href: './cases', current: false},
+    {name: 'FAQ', href: '#faq-section', current: false},
 ]
 
 function classNames(...classes: string[]) {
@@ -63,7 +64,7 @@ const Navbar = () => {
 
                             </div>
                             {/* <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>Contact us</button> */}
-                            <Contactusform />
+                            <Contactusform/>
                         </div>
 
 
@@ -72,13 +73,13 @@ const Navbar = () => {
                         {/* DRAWER ICON */}
 
                         <div className='block lg:hidden'>
-                            <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)} />
+                            <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)}/>
                         </div>
 
                         {/* DRAWER LINKS DATA */}
 
                         <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
-                            <Drawerdata />
+                            <Drawerdata/>
                         </Drawer>
 
                     </div>

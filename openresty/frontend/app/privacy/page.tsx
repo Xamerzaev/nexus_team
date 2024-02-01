@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Privacy: React.FC = () => {
+const Page: React.FC = () => {
   return (
     <div>
       <h1>Политика конфиденциальности</h1>
@@ -68,4 +68,4 @@ const Privacy: React.FC = () => {
   );
 };
 
-export default Privacy;
+export default Page;
