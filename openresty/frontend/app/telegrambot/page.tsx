@@ -42,7 +42,7 @@ const TelegrambotData: DataType[] = [
 // Основной компонент
 const Telegrambot = () => {
     return (
-        <div className='cases mx-auto max-w-7xl px-4 py-24 my-32 lg:px-10 rounded-3xl relative'>
+        <div className='case mx-auto max-w-7xl px-4 py-24 my-32 lg:px-10 rounded-3xl relative'>
             {TelegrambotData.map((item, index) => (
                 <div key={index} className='case-item'>
                     <div className='hashtags'>
@@ -59,7 +59,7 @@ const Telegrambot = () => {
 
                     <div className='image-container'>
                         {item.imgSrc.map((img, index) => (
-                            <Image key={index} src={img} alt={`image-${index}`} width={150} height={100}
+                            <Image key={index} src={img} alt={`image-${index}`} width={700} height={500}
                                    className="cases__img mb-5 flex"/>
                         ))}
 

@@ -11,6 +11,7 @@ const navigation: NavigationItem[] = [
   { name: 'О нас', href: '#aboutus-section', current: true },
   { name: 'Услуги', href: '#services-section', current: false },
   { name: 'FAQ', href: '#faq-section', current: false },
+  { name: 'Кейсы', href: '/cases', current: false },
 ];
 
 function classNames(...classes: string[]) {

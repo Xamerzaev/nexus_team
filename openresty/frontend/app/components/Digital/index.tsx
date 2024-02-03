@@ -31,7 +31,7 @@ const Digital = () => {
                                 <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-2xl font-medium">
                                     <span className="text-base sm:text-2xl">Подробнее</span>
                                     <ChevronUpIcon
-                                        className={`${open ? 'rotate-180 transform' : ''
+                                        className={`${open ? '' : 'rotate-180 transform'
                                             } h-5 w-5 text-purple-500`}
                                     />
                                 </Disclosure.Button>
