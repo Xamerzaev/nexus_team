@@ -4,13 +4,14 @@ const Dedicated = () => {
     return (
         <div className="relative">
 
-            <Image src="/images/dedicated/spiral.svg" height={272} width={686} alt="spiral-design" className="absolute left-0 hidden lg:block -z-10" />
+
 
             <div className='mx-auto max-w-7xl px-4 my-40 sm:py-20 lg:px-8'>
                 <div className='grid grid-cols-1 md:grid-cols-2 my-16'>
 
                     {/* COLUMN-1 */}
-                    <div>
+                    <div className="relative  ">
+                        <Image src="/images/dedicated/spiral.svg" height={272} width={686} alt="spiral-design" className="dedicated__spiral absolute   hidden lg:block -z-10" />
                         <Image src="/images/dedicated/logo.png" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0" />
                     </div>
 

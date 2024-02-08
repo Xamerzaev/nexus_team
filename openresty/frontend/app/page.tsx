@@ -25,7 +25,7 @@ export default function Home() {
             <Ourteam/>
             {/* <Featured /> */}
             <Manage/>
-            <Cases/>
+            <Cases visibleCount={2} />
             <FAQ/>
             {/* <Testimonials /> */}
             <Joinus/>

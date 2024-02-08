@@ -15,16 +15,16 @@ interface DataType {
 // Данные, которые будут отображаться в компоненте
 const TelegrambotData: DataType[] = [
     {
-        heading: "Интеграция МойСклад и Avito для Эффективности Бизнеса LUIDOM",
+        heading: "Реализация Телеграм Бота для Организации Платного Входа в Приватную Группу",
         imgSrc: ["/images/cases/telegrambot.jpg",  ],
         hashtags: ["#TelegramBot", "#Автоматизация"],
         task: "На руках у команды была задача создания эффективного механизма платного входа в приватную Телеграм группу. Целью проекта являлось интегрирование бота с платежной системой, предоставление различных тарифных планов, отправка напоминаний перед истечением срока подписки, модерация анкет пользователей и автоматическое исключение из группы при завершении подписки.",
-        characteristics: ["- Продолжительность: ~2 недели", "- Команда: 1 человек",],
-        features: ["Регистрация и интеграция бота с ЮКасса.",
-            "Платный вход по 3 тарифам.",
-            " Отправка напоминаний за 3 дня до истечения подписки.",
-            "  Модерация анкет пользователей админом перед оплатой.",
-            "Автоматическое исключение из группы при завершении подписки."],
+        characteristics: ["Продолжительность: ~2 недели", "Команда: 1 человек",],
+        features: ["1. Регистрация и интеграция бота с ЮКасса.",
+            "2. Платный вход по 3 тарифам.",
+            "3. Отправка напоминаний за 3 дня до истечения подписки.",
+            "4. Модерация анкет пользователей админом перед оплатой.",
+            "5. Автоматическое исключение из группы при завершении подписки."],
         decision: "Был разработан Телеграм бот, интегрированный с ЮКасса. Этот бот обеспечивает удобную регистрацию, выбор тарифа и оплату для доступа в приватную группу.\n" +
             "\n" +
             "Осуществлена функция отправки оповещений за 3 дня до окончания подписки, что позволяет пользователям быть в курсе статуса своей подписки.\n" +
@@ -47,24 +47,12 @@ const Telegrambot = () => {
                 <div key={index} className='case-item'>
                     <div className='hashtags'>
                         {item.hashtags.map((tag, tagIndex) => (
-                            <div key={tagIndex} className='hashtag'>
+                            <div key={tagIndex} className='hashtag bg-lightblue'>
                                 <h4 className='hashtag__text text-lg font-normal text-black'>{tag}</h4>
                             </div>
                         ))}
                     </div>
-
-
-                    <h4 className='text-start text-4xl lg:text-60xl font-bold'>{item.heading}</h4>
-
-
-                    <div className='image-container'>
-                        {item.imgSrc.map((img, index) => (
-                            <Image key={index} src={img} alt={`image-${index}`} width={700} height={500}
-                                   className="cases__img mb-5 flex"/>
-                        ))}
-
-                    </div>
-
+                    <h4 className='text-start text-4xl lg:text-60xl mb-20 font-bold'>{item.heading}</h4>
                     <h5 className='cases__subtitle'>Задача:</h5>
                     <p className='cases__descriptionText'>{item.task}</p>
                     <h5 className='cases__subtitle'>Характеристики проекта:</h5>
@@ -82,6 +70,13 @@ const Telegrambot = () => {
                     </ol>
                     <h5 className='cases__subtitle'>Решение:</h5>
                     <p className='cases__descriptionText decision'>{item.decision}</p>
+                    <div className='image-container'>
+                        {item.imgSrc.map((img, index) => (
+                            <Image key={index} src={img} alt={`image-${index}`} width={700} height={500}
+                                   className="cases__img mb-5 flex"/>
+                        ))}
+
+                    </div>
                     <h5 className='cases__subtitle'>Итоги:</h5>
                     <p className='cases__descriptionText results'>{item.results}</p>
                 </div>

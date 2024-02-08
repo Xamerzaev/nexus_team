@@ -10,6 +10,7 @@ interface DataType {
     features: string[];
     decision: string;
     results: string;
+    logo: string;
 }
 
 // Данные, которые будут отображаться в компоненте
@@ -19,12 +20,12 @@ const LuidomData: DataType[] = [
         imgSrc: ["/images/cases/luidom1.jpg", "/images/cases/luidom2.jpg", "/images/cases/luidom3.jpg", "/images/cases/luidom4.jpg", "/images/cases/luidom5.jpg"],
         hashtags: ["#МойСклад", "#Авито", "#Автоматизация"],
         task: "Модернизация бизнес-процессов магазина посуды LUIDOM с помощью интеграции сервиса учёта \"МойСклад\" и автоматизации выгрузки товаров на маркетплейс Avito.",
-        characteristics: ["Продолжительность: приблизительно 1 месяц.", "Бюджет: 50 000₽.", "Размер команды: 1 специалист"],
-        features: ["Каталогизация ассортимента: Оприходование около 1000 наименований товаров.",
-            "Структуризация данных поставщиков для точного учёта задолженностей и аналитики.",
-            " Загрузка фотографий и базовых характеристик большинства товаров.",
-            " Обучение персонала использованию кассовой системы \"МойСклад\" для предотвращения ошибок в учёте.",
-            "Ежедневная автоматическая выгрузка товаров на Avito, включая фотографии и описания."],
+        characteristics: ["Продолжительность: ~1 месяц.", "Бюджет: 50 000₽.", "Команда: 1 человек"],
+        features: ["1.Каталогизация ассортимента: Оприходование около 1000 наименований товаров.",
+            "2.Структуризация данных поставщиков для точного учёта задолженностей и аналитики.",
+            "3.Загрузка фотографий и базовых характеристик большинства товаров.",
+            "4.Обучение персонала использованию кассовой системы \"МойСклад\" для предотвращения ошибок в учёте.",
+            "5.Ежедневная автоматическая выгрузка товаров на Avito, включая фотографии и описания."],
         decision: "Мы создали профиль сервиса МойСклад, заполнили нужные данные владельца и купили подписку на нужное количество времени. Далее сразу же приступили к оприходованию товара, это занимает много времени когда сервис МойСклад подключается с нуля, чем больше товаров тем выше цена. Ввели точную информацию, штрихкоды товаров, их закупочная цена, продажная и минимальную (по желанию). Штрихкоды на наклейке и в сервисе должны обязательно совпадать - мы так и поступили.\n" +
             "\n" +
             "Если клиент в будущем планирует в дальнейшем интегрировать сервис МойСклад с сайтом, то мы введем характеристики товара (размер, материал, цвет и т.п). \n" +
@@ -33,12 +34,13 @@ const LuidomData: DataType[] = [
         results: "Проект был выполнен в срок, а сервис МойСклад полностью интегрирован в бизнес клиента. Теперь необязательно запоминать, что, сколько стоит, какому поставщику сколько должны, за этим уже полностью следит сервис.\n" +
             "\n" +
             "Подключили МойСклад к авито, теперь каждый день по 2 раза происходит выгрузка товаров из наличии на Авито, вместе с фотками и описанием.\n" +
-            "сформулируй по красивееБ чтоб можно было на сайте разместить"
+            "сформулируй по красивееБ чтоб можно было на сайте разместить",
+        logo: "/images/cases/logoluidom.jpg",
     },
-    // ... другие объекты данных
+
 ];
 
-// Основной компонент
+
 const AutomationLuidom = () => {
     return (
         <div className='case mx-auto max-w-7xl px-4 py-24 my-32 lg:px-10 rounded-3xl relative'>
@@ -46,24 +48,15 @@ const AutomationLuidom = () => {
                 <div key={index} className='case-item'>
                     <div className='hashtags'>
                         {item.hashtags.map((tag, tagIndex) => (
-                            <div key={tagIndex} className='hashtag'>
+                            <div key={tagIndex} className='hashtag bg-lightblue'>
                                 <h4 className='hashtag__text text-lg font-normal text-black'>{tag}</h4>
                             </div>
                         ))}
                     </div>
 
-
-                    <h4 className='text-start text-4xl lg:text-60xl font-bold'>{item.heading}</h4>
-
-
-                    <div className='cases__img image-container'>
-                        {item.imgSrc.map((img, index) => (
-                            <Image key={index} src={img} alt={`image-${index}`} width={200} height={150}
-                                   className="cases__img mb-5 flex"/>
-                        ))}
-
-                    </div>
-
+                    <h4 className='text-start text-4xl lg:text-60xl mb-20 font-bold'>{item.heading}</h4>
+                    <Image src={item.logo} alt={`logo-${index}`} width={300} height={250}
+                           className=" mb-5 flex"/>
                     <h5 className='cases__subtitle'>Задача:</h5>
                     <p className='cases__descriptionText description'>{item.task}</p>
                     <h5 className='cases__subtitle'>Характеристики проекта:</h5>
@@ -81,6 +74,13 @@ const AutomationLuidom = () => {
                     </ol>
                     <h5 className='cases__subtitle'>Решение:</h5>
                     <p className='cases__descriptionText decision'>{item.decision}</p>
+                    <div className='cases__img image-container'>
+                        {item.imgSrc.map((img, index) => (
+                            <Image key={index} src={img} alt={`image-${index}`} width={300} height={250}
+                                   className=" mb-5 flex"/>
+                        ))}
+
+                    </div>
                     <h5 className='cases__subtitle'>Итоги:</h5>
                     <p className='cases__descriptionText results'>{item.results}</p>
                 </div>

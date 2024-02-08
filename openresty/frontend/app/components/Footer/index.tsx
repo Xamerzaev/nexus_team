@@ -3,9 +3,9 @@ import Link from "next/link";
 
 // MIDDLE LINKS DATA
 interface ProductType {
-    id: number;
-    section: string;
-    link: string[];
+  id: number;
+  section: string;
+  link: string[];
 }
 
 const casesLink = '/cases'
@@ -112,7 +112,7 @@ const Footer = () => {
                         </div>
                         <div className="flex justify-centerZ md:justify-end">
                             <Link href="/privacy">
-                                <h3 className="text-offwhite pl-6 border-solid border-l border-footer">Политика
+                                <h3 className="text-offwhite pl-6 border-solid  border-footer">Политика
                                     конфиденциальности</h3>
                             </Link>
                         </div>
