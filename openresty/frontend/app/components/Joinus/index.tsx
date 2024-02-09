@@ -68,8 +68,8 @@ const Join = () => {
             <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
                 <div className="text-center">
 
-                    <h2 className="text-4xl sm:text-6xl font-bold my-6 leading-10"> Выведи свой бизнес  <br /> на новый уровень</h2>
-                    <p className="text-lightblack text-base font-normal">Подписка на рассылку от нашей компании, в которой мы делимся: <br /> новостями, советами, лайфхаками и акциями</p>
+                    <h2 className="text-4xl sm:text-65xl font-bold my-6 leading-10"> Выведи свой бизнес  <br /> на новый уровень</h2>
+                    <p className="font-medium text-lightblack text-2xl mt-5 text-center ">Подписка на рассылку от нашей компании, в которой мы делимся: <br /> новостями, советами, лайфхаками и акциями</p>
                 </div>
 
                 <div className="mx-auto max-w-4xl pt-5">

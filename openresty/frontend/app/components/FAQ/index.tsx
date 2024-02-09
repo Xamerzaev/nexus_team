@@ -14,10 +14,10 @@ const FAQ = () => {
                             <>
                                 <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-2xl font-medium">
                                     <span>Сколько стоит разработка сайта и сколько времени это занимает?</span>
-                                    <ChevronUpIcon
-                                        className={`${open ? '' : 'rotate-180 transform'
-                                            } h-5 w-5 text-purple-500`}
-                                    />
+                                    {/*<ChevronUpIcon*/}
+                                    {/*    className={`${open ? '' : 'rotate-180 transform'*/}
+                                    {/*        } h-5 w-5 text-purple-500`}*/}
+                                    {/*/>*/}
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
                                 Ответить на этот вопрос невозможно без уточнений: зависит от числа страниц (1, 20 или, например, 500), от типа дизайна (статичный или анимированный), и наличия технического задания или хотя бы общего представления о объеме работ.
@@ -45,10 +45,10 @@ const FAQ = () => {
                             <>
                                 <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-2xl font-medium">
                                     <span>Как заказать сайт и что потребуется?</span>
-                                    <ChevronUpIcon
-                                        className={`${open ? '' : 'rotate-180 transform'
-                                            } h-5 w-5 text-purple-500`}
-                                    />
+                                    {/*<ChevronUpIcon*/}
+                                    {/*    className={`${open ? '' : 'rotate-180 transform'*/}
+                                    {/*        } h-5 w-5 text-purple-500`}*/}
+                                    {/*/>*/}
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
 
@@ -71,10 +71,10 @@ const FAQ = () => {
                             <>
                                 <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-2xl font-medium">
                                     <span>Почему мы разрабатываем сайты на DRF и NextJS?</span>
-                                    <ChevronUpIcon
-                                        className={`${open ? '' : 'rotate-180 transform'
-                                            } h-5 w-5 text-purple-500`}
-                                    />
+                                    {/*<ChevronUpIcon*/}
+                                    {/*    className={`${open ? '' : 'rotate-180 transform'*/}
+                                    {/*        } h-5 w-5 text-purple-500`}*/}
+                                    {/*/>*/}
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
                                 Мы выбрали использовать Django REST Framework (DRF) для создания бэкенда и Next.js для фронтенда по нескольким важным причинам.

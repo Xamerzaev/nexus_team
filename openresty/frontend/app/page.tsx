@@ -21,9 +21,9 @@ export default function Home() {
             <Dedicated/>
             <Digital/>
             <Beliefs/>
-            {/* <Wework /> */}
+             {/*<Wework /> */}
             <Ourteam/>
-            {/* <Featured /> */}
+             {/*<Featured /> */}
             <Manage/>
             <Cases visibleCount={2} />
             <FAQ/>

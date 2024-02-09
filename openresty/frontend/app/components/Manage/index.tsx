@@ -112,7 +112,7 @@ const Manage = () => {
     return (
         <div id="services-section">
             <div className='mx-auto max-w-7xl sm:py-20 lg:px-8 my-16'>
-                <h3 className='text-center text-4xl sm:text-65xl font-black'>Ниже мы перечислили лишь <br /> некоторые услуги, которые у нас доступны</h3>
+                <h3 className='text-center text-4xl sm:text-65xl font-bold'>Ниже мы перечислили лишь <br /> некоторые услуги, которые у нас доступны</h3>
 
 
                 <div className='md:flex md:justify-around mt-20'>

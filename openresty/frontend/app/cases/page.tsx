@@ -13,19 +13,19 @@ interface DataType {
 const casesData: DataType[] = [
     {
         heading: "Интеграция МойСклад и Avito для Эффективности Бизнеса LUIDOM",
-        imgSrc: ["/images/cases/mainluidom.png",],
+        imgSrc: ["/images/cases/luidommain.png",],
         hashtags: ["#МойСклад", "#Авито", "#Автоматизация"],
         href: "/cases/automationluidom",
     },
     {
         heading: "Реализация Телеграм Бота для Организации Платного Входа в Приватную Группу",
-        imgSrc: ["/images/cases/maintelegrambot.png"],
+        imgSrc: ["/images/cases/bot.jpg"],
         hashtags: ["#TelegramBot", "#Автоматизация"],
         href: "/cases/telegrambot",
     },
     {
         heading: "Пакет Основа + Интеграция",
-        imgSrc: ["/images/cases/mainsahttime.png",],
+        imgSrc: ["/images/cases/sahttime2.jpg", "/images/cases/sahttimelogo.jpg", ],
         hashtags: ["#Автоматизация", "#МойСклад", " #Авито", " #Сайт"],
         href: "/cases/integrationsahttime",
     },
@@ -41,27 +41,17 @@ const Cases: React.FC<CasesProps> = ({visibleCount}) => {
 
     return (
         <div id="cases-section" className='mx-auto max-w-7xl px-4 py-24 mb-32 lg:px-10 rounded-3xl relative'>
-            <h4 className='text-center text-4xl lg:text-6xl font-bold'>Кейсы</h4>
+            <h4 className='text-center text-4xl sm:text-65xl font-bold'>Кейсы</h4>
             <div className='cases grid grid-cols-1 sm:grid-cols-2 my-16 gap-x-16 lg:gap-x-10'>
                 {visibleData.map((item, i) => (
                     <Link key={i} href={item.href} passHref>
                         <div
                             className='cases__block hover:bg-navyblue bg-white rounded-3xl pt-10 pl-8 pb-10 pr-6 drop-shadow-2xl group cursor-pointer'>
                             <div className="image__container">
-                                {item.imgSrc.map((img, index) => {
-                                    const isSingleImage = item.imgSrc.length === 1;
-                                    return (
-                                        <Image
-                                            key={index}
-                                            src={img}
-                                            alt={`image-${index}`}
-                                            width={isSingleImage ? 1 : 250}
-                                            height={isSingleImage ? 1 : 300}
-                                            layout={isSingleImage ? 'responsive' : 'intrinsic'}
-                                            className={`cases__img mb-5 ${isSingleImage ? 'w-full' : ''}`}
-                                        />
-                                    );
-                                })}
+                                {item.imgSrc.map((img, index) => (
+                                    <Image key={index} src={img} alt={`image-${index}`} width={250} height={250}
+                                           className=" mb-5 flex"/>
+                                ))}
                             </div>
                             <div className="mainhashtag">
                                 <div className='hashtags'>

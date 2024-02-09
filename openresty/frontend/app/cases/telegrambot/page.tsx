@@ -16,7 +16,7 @@ interface DataType {
 const TelegrambotData: DataType[] = [
     {
         heading: "Реализация Телеграм Бота для Организации Платного Входа в Приватную Группу",
-        imgSrc: ["/images/cases/telegrambot.jpg",  ],
+        imgSrc: ["/images/cases/bot.jpg","/images/cases/bot1.jpg", "/images/cases/bot2.jpg", "/images/cases/bot3.jpg",],
         hashtags: ["#TelegramBot", "#Автоматизация"],
         task: "На руках у команды была задача создания эффективного механизма платного входа в приватную Телеграм группу. Целью проекта являлось интегрирование бота с платежной системой, предоставление различных тарифных планов, отправка напоминаний перед истечением срока подписки, модерация анкет пользователей и автоматическое исключение из группы при завершении подписки.",
         characteristics: ["Продолжительность: ~2 недели", "Команда: 1 человек",],
@@ -72,7 +72,7 @@ const Telegrambot = () => {
                     <p className='cases__descriptionText decision'>{item.decision}</p>
                     <div className='image-container'>
                         {item.imgSrc.map((img, index) => (
-                            <Image key={index} src={img} alt={`image-${index}`} width={700} height={500}
+                            <Image key={index} src={img} alt={`image-${index}`} width={500} height={500}
                                    className="cases__img mb-5 flex"/>
                         ))}
 

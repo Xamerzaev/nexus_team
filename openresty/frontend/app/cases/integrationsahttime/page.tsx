@@ -10,14 +10,14 @@ interface DataType {
     features: string[];
     decision: string[];
     results: string;
-    logo:string
+
 }
 
 // Данные, которые будут отображаться в компоненте
 const SahtTimeData: DataType[] = [
     {
         heading: "Пакет Основа + Интеграция",
-        imgSrc: ["/images/cases/sahttime.jpg", "/images/cases/sahttime2.jpg","/images/cases/sahttime3.jpg","/images/cases/sahttime5.jpg","/images/cases/sahttime6.jpg",],
+        imgSrc: ["/images/cases/sahttimelogo.jpg", "/images/cases/sahttime.jpg","/images/cases/sahttime2.jpg","/images/cases/sahttime3.jpg",],
         hashtags: ["#Автоматизация", "#МойСклад", " #Авито", " #Сайт"],
         task: "Если вы хотите чтобы ваш бизнес обладал не только грамотным учетом, но еще и местом на маркетплейсах, то данный пакет услуг подойдет именно вам, мы также сможем интегрировать сервис МойСклад с вашим сайтом. Данную операцию мы провели с часовым салоном Saht Time.",
         characteristics: ["Продолжительность ~3 месяца", "Бюджет: 400 000₽", "Команда: 3 человека",],
@@ -40,7 +40,7 @@ const SahtTimeData: DataType[] = [
         "5. Создана система скидок: контрагенты А и контрагенты В (скидки -5% и -10%) также у клиентов В категории есть накопительная система баллов. Были созданы и товары по распродаже",
         "6. Персонал был обучен базовым навыкам МойСклад и работе с кассой МойСклад"],
         results: "Проект был выполнен в срок, а сервис МойСклад успешно интегрирован с сайтом клиента и с Авито.",
-        logo: "/images/cases/logosahttime.jpg",
+
     },
 
 ];
@@ -60,8 +60,6 @@ const Telegrambot = () => {
                     </div>
 
                     <h4 className='text-start text-4xl lg:text-60xl mb-20 font-bold'>{item.heading}</h4>
-                    <Image src={item.logo} alt={`logo-${index}`} width={300} height={250}
-                           className=" mb-5 flex"/>
                     <h5 className='cases__subtitle'>Задача:</h5>
                     <p className='cases__descriptionText'>{item.task}</p>
                     <h5 className='cases__subtitle'>Характеристики проекта:</h5>
@@ -84,7 +82,7 @@ const Telegrambot = () => {
                         ))}</ol>
                     <div className='cases__img image-container'>
                         {item.imgSrc.map((img, index) => (
-                            <Image key={index} src={img} alt={`image-${index}`} width={250} height={150}
+                            <Image key={index} src={img} alt={`image-${index}`} width={300} height={250}
                                    className="cases__img mb-5 flex"/>
                         ))}
 

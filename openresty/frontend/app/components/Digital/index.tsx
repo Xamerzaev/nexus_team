@@ -22,17 +22,17 @@ const Digital = () => {
                         <h5 className="text-4xl sm:text-6xl font-bold text-white mb-8 leading-snug text-center lg:text-start">
                         Мы решаем <br />   бизнес-проблемы <br /> с помощью IT</h5>
                         <div className="text-center lg:text-start">
-                        <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6 mb-5">
+                        <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-4 px-6 mb-5">
 
                         <Disclosure as="div" className="mt-2">
                         {({ open }) => (
                             <>
                                 <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-2xl font-medium">
                                     <span className="text-base sm:text-2xl">Подробнее</span>
-                                    <ChevronUpIcon
-                                        className={`${open ? '' : 'rotate-180 transform'
-                                            } h-5 w-5 text-purple-500`}
-                                    />
+                                    {/*<ChevronUpIcon*/}
+                                    {/*    className={`${open ? '' : 'rotate-180 transform'*/}
+                                    {/*        } h-5 w-5 text-purple-500`}*/}
+                                    {/*/>*/}
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
                                 Мы разрабатываем уникальные веб-сайты, которые помогут сэкономить ваши финансы, привлечь внимание партнеров и привлечь новых клиентов. В будущем вашей компании не придется тратить средства на постоянные доработки и корректировки, что позволит сократить затраты на обслуживание сайта до 72%. Узнайте больше о наших услугах:

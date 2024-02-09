@@ -10,14 +10,14 @@ interface DataType {
     features: string[];
     decision: string;
     results: string;
-    logo: string;
+
 }
 
 // Данные, которые будут отображаться в компоненте
 const LuidomData: DataType[] = [
     {
         heading: "Интеграция МойСклад и Avito для Эффективности Бизнеса LUIDOM",
-        imgSrc: ["/images/cases/luidom1.jpg", "/images/cases/luidom2.jpg", "/images/cases/luidom3.jpg", "/images/cases/luidom4.jpg", "/images/cases/luidom5.jpg"],
+        imgSrc: ["/images/cases/luidomlogo.jpg", "/images/cases/luidom.jpg", "/images/cases/luidom2.jpg", ],
         hashtags: ["#МойСклад", "#Авито", "#Автоматизация"],
         task: "Модернизация бизнес-процессов магазина посуды LUIDOM с помощью интеграции сервиса учёта \"МойСклад\" и автоматизации выгрузки товаров на маркетплейс Avito.",
         characteristics: ["Продолжительность: ~1 месяц.", "Бюджет: 50 000₽.", "Команда: 1 человек"],
@@ -35,7 +35,7 @@ const LuidomData: DataType[] = [
             "\n" +
             "Подключили МойСклад к авито, теперь каждый день по 2 раза происходит выгрузка товаров из наличии на Авито, вместе с фотками и описанием.\n" +
             "сформулируй по красивееБ чтоб можно было на сайте разместить",
-        logo: "/images/cases/logoluidom.jpg",
+
     },
 
 ];
@@ -55,8 +55,6 @@ const AutomationLuidom = () => {
                     </div>
 
                     <h4 className='text-start text-4xl lg:text-60xl mb-20 font-bold'>{item.heading}</h4>
-                    <Image src={item.logo} alt={`logo-${index}`} width={300} height={250}
-                           className=" mb-5 flex"/>
                     <h5 className='cases__subtitle'>Задача:</h5>
                     <p className='cases__descriptionText description'>{item.task}</p>
                     <h5 className='cases__subtitle'>Характеристики проекта:</h5>
