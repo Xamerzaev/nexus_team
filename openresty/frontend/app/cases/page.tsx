@@ -13,19 +13,19 @@ interface DataType {
 const casesData: DataType[] = [
     {
         heading: "Интеграция МойСклад и Avito для Эффективности Бизнеса LUIDOM",
-        imgSrc: ["/images/cases/luidommain.png",],
+        imgSrc: ["/images/cases/luidomlogo.jpg","/images/cases/luidom.jpg",],
         hashtags: ["#МойСклад", "#Авито", "#Автоматизация"],
         href: "/cases/automationluidom",
     },
     {
         heading: "Реализация Телеграм Бота для Организации Платного Входа в Приватную Группу",
-        imgSrc: ["/images/cases/bot.jpg"],
+        imgSrc: ["/images/cases/bot.jpg", "/images/cases/bot1.jpg"],
         hashtags: ["#TelegramBot", "#Автоматизация"],
         href: "/cases/telegrambot",
     },
     {
         heading: "Пакет Основа + Интеграция",
-        imgSrc: ["/images/cases/sahttime2.jpg", "/images/cases/sahttimelogo.jpg", ],
+        imgSrc: ["/images/cases/sahttimelogo.jpg", "/images/cases/sahttime2.jpg",  ],
         hashtags: ["#Автоматизация", "#МойСклад", " #Авито", " #Сайт"],
         href: "/cases/integrationsahttime",
     },
@@ -46,26 +46,34 @@ const Cases: React.FC<CasesProps> = ({visibleCount}) => {
                 {visibleData.map((item, i) => (
                     <Link key={i} href={item.href} passHref>
                         <div
-                            className='cases__block hover:bg-navyblue bg-white rounded-3xl pt-10 pl-8 pb-10 pr-6 drop-shadow-2xl group cursor-pointer'>
-                            <div className="image__container">
+                            className='cases__block  hover:bg-navyblue bg-white rounded-3xl pt-10 pb-10  drop-shadow-2xl group cursor-pointer'>
+                            <div className="image__container ">
                                 {item.imgSrc.map((img, index) => (
-                                    <Image key={index} src={img} alt={`image-${index}`} width={250} height={250}
-                                           className=" mb-5 flex"/>
+                                    <div key={index} className="image__wrapper">
+                                        <Image
+                                            src={img}
+                                            alt={`image-${index}`}
+                                            layout="responsive"
+                                            objectFit="cover"
+                                            width="300" /* Укажите ширину */
+                                            height="300" /* Укажите высоту, сохраняя соотношение сторон */
+                                        />
+                                    </div>
                                 ))}
                             </div>
                             <div className="mainhashtag">
-                                <div className='hashtags'>
+                                <div className='hashtags pl-8 pr-6'>
                                     {item.hashtags.map((tag, z) => (
-                                        <div key={z} className='hashtag bg-lightblue'>
-                                            <h4 className='hashtag__text text-lg font-normal text-black'>{tag}</h4>
+                                        <div key={z} className='hashtag  '>
+                                            <h4 className='group-hover:text-white hashtag__text text-lg font-normal text-black'>{tag}</h4>
                                         </div>
                                     ))}
                                 </div>
                             </div>
                             <div className='mainText'>
-                                <h4 className='text-2xl font-semibold text-black mb-5 group-hover:text-white'>{item.heading.toUpperCase()}</h4>
+                                <h4 className='pl-8 pr-6 text-2xl font-semibold text-black mb-5 group-hover:text-white'>{item.heading.toUpperCase()}</h4>
                             </div>
-                            <div className='cases__link group-hover:text-white'>
+                            <div className='cases__link group-hover:text-white pl-8 pr-6'>
                                 <div className='cases__linktext'>подробнее</div>
                                 <div className='cases__linkArrow linkarrow'>
                                     <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor"

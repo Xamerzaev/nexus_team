@@ -412,14 +412,25 @@ html {
 
 .image__container {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    height: 300px;
-    width: 100%;
-
+    gap: 10px;
+    justify-content: center;
+    background-color: rgba(0, 56, 255, .15);
 
 }
 
+.image__wrapper {
+    flex: 1;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.image__wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
 .hashtags {
     max-width: 100%;
@@ -445,7 +456,7 @@ html {
 
 .hashtag {
     object-fit: contain;
-    /*background-color: rgba(0, 56, 255, .15);*/
+    background-color: rgba(0, 56, 255, .15);
     margin-top: 0;
     margin-right: 0;
     padding: 10px;
@@ -546,3 +557,4 @@ html {
     height: 120px;
 
 }
+
