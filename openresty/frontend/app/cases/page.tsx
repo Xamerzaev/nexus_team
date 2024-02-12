@@ -49,7 +49,8 @@ const Cases: React.FC<CasesProps> = ({visibleCount}) => {
                             className='cases__block  hover:bg-navyblue bg-white rounded-3xl pt-10 pb-10  drop-shadow-2xl group cursor-pointer'>
                             <div className="image__container ">
                                 {item.imgSrc.map((img, index) => (
-                                    <div key={index} className="image__wrapper">
+                                    <div key={index} className={`image__wrapper pt-6 pb-6 ${index === 0 ? '' : 'pr-6'} ${index === 1 ? '' : 'pl-8'}`}>
+
                                         <Image
                                             src={img}
                                             alt={`image-${index}`}

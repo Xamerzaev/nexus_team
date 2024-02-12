@@ -139,7 +139,7 @@ const Manage = () => {
                         <Switch
                             checked={enabled}
                             onChange={toggleEnabled}
-                            className={`${enabled ? 'bg-darkpurple' : 'bg-darkpurple'
+                            className={`${enabled ? 'bg-blue' : 'bg-blue'
                                 } relative inline-flex h-6 w-11 items-center rounded-full`}
                         >
                             <span className="sr-only text-black">Enable notifications</span>

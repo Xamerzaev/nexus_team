@@ -8,7 +8,7 @@ const FAQ = () => {
 
             <h2 className='text-4xl lg:text-6xl font-semibold text-center text-white'>Ответы на часто задаваемые <br /> вопросы</h2>
             <div className="w-full px-4 pt-16">
-                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6 mb-5">
+                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-4 px-6 mb-5">
                     <Disclosure>
                         {({ open }) => (
                             <>
@@ -39,7 +39,7 @@ const FAQ = () => {
                     </Disclosure>
                 </div>
 
-                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6 mb-5">
+                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-4 px-6 mb-5">
                     <Disclosure as="div" className="mt-2">
                         {({ open }) => (
                             <>
@@ -65,7 +65,7 @@ const FAQ = () => {
                     </Disclosure>
                 </div>
 
-                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6">
+                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-4 px-6">
                     <Disclosure as="div" className="mt-2">
                         {({ open }) => (
                             <>
