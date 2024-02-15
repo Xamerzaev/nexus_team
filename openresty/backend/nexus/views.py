@@ -6,6 +6,9 @@ from rest_framework import status
 
 import requests
 import logging
+import json
+from dotenv import load_dotenv
+load_dotenv()
 
 from nexus.serializers import SubscriptionSerializer, ContactUsSerializer
 
@@ -38,16 +41,28 @@ class ContactUsView(APIView):
 
 
 def send_telegram_message(message):
-    bot_token = os.environ.get('TELEGRAM_BOT_TOKEN')
-    chat_id = os.environ.get('TELEGRAM_CHAT_ID')
+    bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
+    chat_id = os.getenv('TELEGRAM_CHAT_ID')
+
+    # Формируем inline-кнопку
+    reply_markup = {
+        "inline_keyboard": [[
+            {"text": "Обработан", "callback_data": "processed"}
+        ]]
+    }
 
     if bot_token and chat_id:
         url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
-        data = {'chat_id': chat_id, 'text': message}
+        data = {
+            'chat_id': chat_id, 
+            'text': message, 
+            'reply_markup': json.dumps(reply_markup)
+        }
 
         try:
-            response = requests.post(url, data=data)
+            response = requests.post(url, json=data)
             response.raise_for_status()
+            logger.info("Message successfully sent to Telegram.")
         except requests.exceptions.RequestException as e:
             logger.error("Failed to send message to Telegram. Error: %s", str(e))
     else:
