@@ -5,7 +5,7 @@
   "Banner": {
     "title": "Bring<br></br> your ideas to <br></br> IT sphere",
     "services": "Services",
-    "agency": "IT agency"
+    "agency": "IT Agency"
   },
   "AboutUs": {
     "title": "Learn more about us",
@@ -160,8 +160,102 @@
     "description7": "We reserve the right to change this Privacy Policy at any time. The latest version of the Policy is always available on our website.",
     "contacts": "Contacts",
     "text": "If you have any questions or suggestions regarding our Privacy Policy, please contact us.<br> </br> NEXUS adheres to high standards of protection and confidentiality of your data and strives to ensure the security of your personal information."
+  },
+  "FooterContent": {
+    "socialNetworksTitle": "We are on social networks",
+    "contactsTitle": "Our contacts",
+    "phoneLabel": "Phone: +7 905 040-40-47",
+    "emailLabel": "Email: nexuspc.ru@yandex.ru",
+    "allRightsReserved": "@2023 - Any use of content without written permission is prohibited",
+    "privacyPolicy": "Privacy Policy",
+    "menu": "Menu",
+    "home": "Home",
+    "services": "Services",
+    "cases": "Cases",
+    "aboutUs": "About us",
+    "faq": "FAQ",
+    "developers": "Developers",
+    "vacancies": "Vacancies",
+    "formLink": "https://forms.yandex.ru/cloud/6560c3f0d04688326ed940c9/"
+  },
+
+  "Manage": {
+    "emailContent": "Hello!\n\nI am interested in discussing the project \"${projectName}\". I would like to know more about your offer.\n\nSincerely,\n[Your Name]",
+    "title": "Below we have listed just <br></br> some of the services that are available with us",
+    "subtitle1": "Quality Assurance",
+    "subtitle2": "Technical Support",
+    "subtitle3": "Precise Timelines",
+    "subtitle4": "Help with Technical Specifications",
+    "chapter1": "Development Department",
+    "chapter2": "Automation Department",
+    "block1": {
+      "heading": "Support",
+      "price": "от 30 т. ₽",
+      "user": " What is included in this package?",
+      "button": "Discuss the project",
+      "profiles": "24/7 support",
+      "posts": "Inventory of the existing MoiSklad system",
+      "templates": "Goods receipt",
+      "view": "Processing of receipts",
+      "support": "Contractor processing"
+    },
+    "block2": {
+      "heading": "Foundation",
+      "price": "от 50 т.₽",
+      "user": " What is included in this package?",
+      "button": "Discuss the project",
+      "profiles": "Creating MoiSklad system from scratch and customizing it for you",
+      "posts": "Inventory",
+      "templates": "Goods receipt",
+      "view": "Goods acceptance",
+      "support": "Contractor processing"
+    },
+    "block3": {
+      "heading": "Foundation + Integration",
+      "price": "от 100 т. ₽",
+      "user": " What is included in this package?",
+      "button": "Discuss the project",
+      "profiles": "Services from the Foundation",
+      "posts": "Integration of MoiSklad with marketplaces and your website",
+      "support": "24/7 VIP support"
+    },
+    "block4": {
+      "heading": "Website",
+      "price": "от 50 т. ₽",
+      "user": " The price depends on complexity",
+      "button": "Discuss the project",
+      "profiles": "Landing page",
+      "posts": "Corporate website",
+      "templates": "Business card website",
+      "view": "Online store",
+      "support": "Websites for online schools, etc."
+    },
+    "block5": {
+      "heading": "Services/Scripts",
+      "price": "от 40 т. ₽",
+      "user": " The price depends on complexity",
+      "button": "Discuss the project",
+      "profiles": "Data processing:",
+      "posts": "Web scraping and web automation",
+      "templates": "API integration",
+      "view": "Machine learning and data analysis",
+      "support": "Services with databases, etc."
+    },
+    "block6": {
+      "heading": "Telegram Bot",
+      "price": "от 20 т. ₽",
+      "user": " The price depends on complexity",
+      "button": "Discuss the project",
+      "profiles": "Text bots",
+      "posts": "Interactive bots with buttons",
+      "templates": "Bots with image or multimedia processing:",
+      "view": "Artificial intelligence and machine learning",
+      "support": "Integration with external services and APIs, etc."
+    }
   }
 }
+
+
 
 
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link, usePathname} from "@/navigation";
 import {useLocale, useTranslations} from "next-intl";
+import Contactusform from "@/components/Navbar/Contactus";
 
 const LanguageSwitcher: React.FC = () => {
     const t = useTranslations('LocaleSwitcher');
@@ -11,7 +12,7 @@ const LanguageSwitcher: React.FC = () => {
     return(
         <div>
             <Link href={pathname} locale={otherLocale} passHref>
-                <button>
+                <button className="font-semibold text-xl">
                     {t('switchLocale', {locale: otherLocale})}
                 </button>
             </Link>

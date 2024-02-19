@@ -11,7 +11,7 @@ const Digital = () => {
         setModalContent('');
         setModalOpen(false);
       };
-    const t = useTranslations("Digital");
+    const t = useTranslations("FooterContent");
         return (
             <div className="mx-2">
             <div className='mx-auto max-w-7xl px-4 my-40 pb-20 lg:pb-40 lg:px-8 bg-digital rounded-3xl bg-blue relative'>

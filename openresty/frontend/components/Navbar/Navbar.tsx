@@ -10,8 +10,6 @@ import {useTranslations} from "next-intl";
 import LanguageSwitcher from "@/components/Navbar/LanguageSwitcher";
 
 
-
-
 interface NavigationItem {
     name: string;
     href: string;
@@ -70,18 +68,22 @@ const Navbar = () => {
 
                             </div>
                             {/* <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>Contact us</button> */}
-                            <Contactusform/>
+                            <div className="contents__main flex ">
+                                <div><Contactusform/></div>
+
+                                <div className='block lg:hidden'>
+                                    <Bars3Icon className="block h-6 w-6" aria-hidden="true"
+                                               onClick={() => setIsOpen(true)}/>
+                                </div>
+                                <div><LanguageSwitcher/></div>
+                            </div>
                         </div>
-<LanguageSwitcher/>
 
 
                         {/* DRAWER FOR MOBILE VIEW */}
 
                         {/* DRAWER ICON */}
 
-                        <div className='block lg:hidden'>
-                            <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)}/>
-                        </div>
 
                         {/* DRAWER LINKS DATA */}
 
