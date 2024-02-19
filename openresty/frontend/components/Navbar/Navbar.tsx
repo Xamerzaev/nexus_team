@@ -7,6 +7,7 @@ import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import Contactusform from './Contactus';
 import {useTranslations} from "next-intl";
+import LanguageSwitcher from "@/components/Navbar/LanguageSwitcher";
 
 
 
@@ -71,7 +72,7 @@ const Navbar = () => {
                             {/* <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>Contact us</button> */}
                             <Contactusform/>
                         </div>
-
+<LanguageSwitcher/>
 
 
                         {/* DRAWER FOR MOBILE VIEW */}

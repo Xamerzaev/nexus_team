@@ -1,4 +1,7 @@
 {
+  "LocaleSwitcher": {
+    "switchLocale": "{locale, select, ru {EN} en {RU} other {Unknown}}"
+  },
   "Banner": {
     "title": "Bring<br></br> your ideas to <br></br> IT sphere",
     "services": "Services",
@@ -142,18 +145,18 @@
     "title": "Privacy Policy",
     "description1": "This Privacy Policy defines how we, NEXUS, collect, use, process, store and protect the personal data of visitors to our site. We value your privacy and strive to protect your personal information.",
     "subtitle1": "1. Collecting Information",
-    "points":"1.1. When subscribing to the Newsletter: We collect your email address.<br></br>1.2. When Contacting by Phone: We are collecting your phone number.<br></br>1.3. Through The Feedback Form: We collect your email address and phone number.<br></br>",
+    "points": "1.1. When subscribing to the Newsletter: We collect your email address.<br></br>1.2. When Contacting by Phone: We are collecting your phone number.<br></br>1.3. Through The Feedback Form: We collect your email address and phone number.<br></br>",
     "subtitle2": " 2.Methods Of Collecting Information",
-    "description2":"We collect information directly from you when filling out forms on our website, when contacting us by phone, and when subscribing to our newsletter.",
-    "subtitle3":"3. Use and Disclosure of Information",
+    "description2": "We collect information directly from you when filling out forms on our website, when contacting us by phone, and when subscribing to our newsletter.",
+    "subtitle3": "3. Use and Disclosure of Information",
     "description3": "Your personal data is processed and stored in accordance with applicable law. We use your information solely to provide the requested services and do not disclose it to third parties without your consent, except as required by law.",
     "subtitle4": "4. Communication with Visitors",
-    "description4":"We may use your contact information to contact you, send information materials and notifications about new services.",
+    "description4": "We may use your contact information to contact you, send information materials and notifications about new services.",
     "subtitle5": "5. Use of Cookies and Tracking Technologies",
     "description5": " We may use cookies and other technologies to analyze the use of our site and provide personalized content. You can control the use of cookies through your browser settings.",
     "subtitle6": "6. Review Agree",
     "description6": " You can withdraw your consent to the processing of personal data at any time by contacting us using the specified contact details. Revocation of consent may affect your ability to use certain features of our site.",
-    "subtitle7":"7. Changes to the Privacy Policy",
+    "subtitle7": "7. Changes to the Privacy Policy",
     "description7": "We reserve the right to change this Privacy Policy at any time. The latest version of the Policy is always available on our website.",
     "contacts": "Contacts",
     "text": "If you have any questions or suggestions regarding our Privacy Policy, please contact us.<br> </br> NEXUS adheres to high standards of protection and confidentiality of your data and strives to ensure the security of your personal information."

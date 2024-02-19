@@ -1,4 +1,8 @@
 {
+  "LocaleSwitcher": {
+    "switchLocale": "{locale, select, ru {EN} en {RU} other {Unknown}}"
+  },
+
   "Banner": {
     "title": "Воплоти <br></br>свои идеи в <br></br>IT-сфере",
     "services": "Услуги",

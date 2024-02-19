@@ -1,12 +1,13 @@
 import React from 'react';
 import Head from 'next/head';
 import './globals.css';
-import {NextIntlClientProvider, NextIntlProvider, useMessages} from 'next-intl';
+import {NextIntlClientProvider,  useMessages} from 'next-intl';
 import Footer from '@/components/Footer/index';
 import {useLocale} from "next-intl";
 import {notFound} from "next/navigation";
 import Navbar from "@/components/Navbar";
 import LanguageSwitcher from "@/components/Navbar/LanguageSwitcher";
+import LocaleSwitcher from "@/components/Navbar/LanguageSwitcher";
 
 export const metadata = {
     title: 'NexusPC - Ведущий Провайдер Инновационных IT-решений',
@@ -68,7 +69,7 @@ export default function RootLayout({children, params}: {
         <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
             <Navbar/>
-
+{/*<LocaleSwitcher/>*/}
 
 
             {children}
