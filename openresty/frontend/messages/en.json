@@ -45,6 +45,7 @@
   },
   "Cases": {
     "title": "Cases",
+    "button": "View all cases",
     "luidom": {
       "hashtags": "<hashtag>#MyWarehouse</hashtag><hashtag>#Avito</hashtag><hashtag>#Automation</hashtag>",
       "subtitle": "Integration of MyWarehouse and Avito for the Efficiency of LUIDOM Business",
@@ -180,7 +181,8 @@
   },
 
   "Manage": {
-    "emailContent": "Hello!\n\nI am interested in discussing the project \"${projectName}\". I would like to know more about your offer.\n\nSincerely,\n[Your Name]",
+    "projectDiscussion": "Project discussion:",
+    "emailContent": "Hello!\n\nI am interested in discussing the project \"{projectName}\". I would like to know more about your offer.\n\nSincerely,\n[Your Name]",
     "title": "Below we have listed just <br></br> some of the services that are available with us",
     "subtitle1": "Quality Assurance",
     "subtitle2": "Technical Support",

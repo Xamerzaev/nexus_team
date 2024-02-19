@@ -49,18 +49,10 @@ const Manage = () => {
     const filteredData = names.filter(items => items.category === selectedCategory);
     const handleDiscussProject = (projectName: string) => {
         // Содержание письма
-        const emailContent = `
-            Здравствуйте!
-    
-            Я заинтересован в обсуждении проекта "${projectName}". 
-            Хотел бы узнать больше о вашем предложении. 
-    
-            С уважением,
-            [Ваше Имя]
-        `;
+        const emailContent = t('emailContent', {projectName});
 
         // Формируем строку для mailto:
-        const mailtoLink = `mailto:nexuspc.ru@yandex.ru?subject=Обсуждение проекта: ${projectName}&body=${encodeURIComponent(emailContent)}`;
+        const mailtoLink = `mailto:nexuspc.ru@yandex.ru?subject=${t("projectDiscussion")} ${projectName}&body=${encodeURIComponent(emailContent)}`;
 
         // Открываем почтовый клиент
         window.location.href = mailtoLink;
@@ -116,7 +108,7 @@ const Manage = () => {
                             <h2 className='text-5xl sm:text-65xl font-extrabold mb-3'>{t(`${items.key}.price`)}</h2>
                             <p className='text-sm font-medium text-darkgrey mb-6'>{t(`${items.key}.user`)}</p>
                             <button
-                                onClick={() => handleDiscussProject(items.heading)}
+                                onClick={() => handleDiscussProject(t(`${items.key}.heading`))}
                                 className='text-sm font-bold text-blue bg-transparent hover:bg-blue hover:text-white border-2 border-blue rounded-full py-4 px-12 mb-6'
                             >
                                 {t(`${items.key}.button`)}
