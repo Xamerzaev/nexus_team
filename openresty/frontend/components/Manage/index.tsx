@@ -105,7 +105,7 @@ const Manage = () => {
                     {filteredData.map((items, i) => (
                         <div className='manageTabs text-center p-10' key={i}>
                             <h4 className='text-2xl font-bold mb-3'>{t(`${items.key}.heading`)}</h4>
-                            <h2 className='text-5xl sm:text-65xl font-extrabold mb-3'>{t(`${items.key}.price`)}</h2>
+                            <h2 className='text-5xl sm:text-65xl font-extrabold mb-3'>{t.rich(`${items.key}.price`,{br: (chunks) => <br/>})}  </h2>
                             <p className='text-sm font-medium text-darkgrey mb-6'>{t(`${items.key}.user`)}</p>
                             <button
                                 onClick={() => handleDiscussProject(t(`${items.key}.heading`))}

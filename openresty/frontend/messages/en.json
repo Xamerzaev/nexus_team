@@ -105,7 +105,7 @@
     "hashtags": "<hashtag>#My Layout</hashtag><hashtag>#Avito</hashtag><hashtag>#Automation</hashtag>",
     "task": "Modernization of the business processes of the LUIDOM tableware store through the integration of the accounting service \"MoiSklad\" and automation of unloading goods on the Avito marketplace.",
     "characteristics": "Duration: ~1 month.<br></br> Budget: 50, 000₽.<br></br> Team: 1 person",
-    "features": "1.Каталогизация ассортимента: Оприходование около 1000 наименований товаров.<br></br> 2.Структуризация данных поставщиков для точного учёта задолженностей и аналитики.<br></br>3.Загрузка фотографий и базовых характеристик большинства товаров.<br></br> 4.Обучение персонала использованию кассовой системы \"МойСклад\" для предотвращения ошибок в учёте.<br></br> 5.Ежедневная автоматическая выгрузка товаров на Avito, включая фотографии и описания.<br></br>",
+    "features": "1.Cataloging of the assortment: Registration of about 1000 items of goods.<br></br> 2.Structuring supplier data for accurate debt accounting and analytics.<br></br>3.Uploading photos and basic characteristics of most products.<br></br> 4.Staff training in the use of the cash register system \"MoiSklad\" to prevent accounting errors.<br></br> 5.Daily automatic unloading of goods on Avito, including photos and descriptions.<br></br>",
     "decision": "We created a profile of the MySklad service, filled in the necessary owner data and bought a subscription for the right amount of time. Then they immediately began to register the goods...",
     "results": "The project was completed on time, and the MySklad service is fully integrated into the client's business...",
     "subtitle1": "Task:",
@@ -192,7 +192,7 @@
     "chapter2": "Automation Department",
     "block1": {
       "heading": "Support",
-      "price": "от 30 т. ₽",
+      "price": "from <br></br> 30 т. ₽",
       "user": " What is included in this package?",
       "button": "Discuss the project",
       "profiles": "24/7 support",
@@ -203,7 +203,7 @@
     },
     "block2": {
       "heading": "Foundation",
-      "price": "от 50 т.₽",
+      "price": "from <br></br> 50 т.₽",
       "user": " What is included in this package?",
       "button": "Discuss the project",
       "profiles": "Creating MoiSklad system from scratch and customizing it for you",
@@ -214,7 +214,7 @@
     },
     "block3": {
       "heading": "Foundation + Integration",
-      "price": "от 100 т. ₽",
+      "price": " from <br></br>100 т. ₽",
       "user": " What is included in this package?",
       "button": "Discuss the project",
       "profiles": "Services from the Foundation",
@@ -223,7 +223,7 @@
     },
     "block4": {
       "heading": "Website",
-      "price": "от 50 т. ₽",
+      "price": "from <br></br> 50 т. ₽",
       "user": " The price depends on complexity",
       "button": "Discuss the project",
       "profiles": "Landing page",
@@ -234,7 +234,7 @@
     },
     "block5": {
       "heading": "Services/Scripts",
-      "price": "от 40 т. ₽",
+      "price": "from<br></br> 40 т. ₽",
       "user": " The price depends on complexity",
       "button": "Discuss the project",
       "profiles": "Data processing:",
@@ -245,7 +245,7 @@
     },
     "block6": {
       "heading": "Telegram Bot",
-      "price": "от 20 т. ₽",
+      "price": "from <br></br>20 т. ₽",
       "user": " The price depends on complexity",
       "button": "Discuss the project",
       "profiles": "Text bots",
