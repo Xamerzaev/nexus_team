@@ -1,0 +1,165 @@
+{
+  "Banner": {
+    "title": "Bring<br></br> your ideas to <br></br> IT sphere",
+    "services": "Services",
+    "agency": "IT agency"
+  },
+  "AboutUs": {
+    "title": "Learn more about us",
+    "aboutUs": {
+      "subtitle": "About Us",
+      "paragraph": "We are Nexus - a young company aiming to provide a wide range of IT services for your business. Our goal is to create solutions that contribute to the development of your company and provide support at every step of your journey to success."
+    },
+    "services": {
+      "subtitle": "Services",
+      "paragraph": "We specialize in creating affordable websites, software scripts, and bots. Our automation department takes care of integrating your business with the 'MyWarehouse' system, as well as ensuring synchronization with Ozon and Avito. This means your business can easily interact with popular online trading platforms such as Ozon and Avito."
+    },
+    "whyUs": {
+      "subtitle": "Why Us?",
+      "paragraph": "Personalized approach, innovative solutions, experienced team. We strive for excellence, ready to bring your ideas to life in the IT world."
+    }
+  },
+  "Dedicated": {
+    "title": "An IT solution that will distinguish you from your competitors",
+    "description": "Our professionals have come together to form an awesome team, dedicated to creating smart and effective solutions for your success."
+  },
+  "Digital": {
+    "title": "We Solve <br></br> Business Problems<br></br> Using IT",
+    "detailed": "Learn More",
+    "description": "We develop unique websites that will save your finances, attract partners' attention, and bring in new customers. In the future, your company won't have to spend money on constant modifications and adjustments, allowing you to reduce website maintenance costs by up to 72%. Learn more about our services:<br></br> - Strategic Planning <br></br> - Quality Content Creation <br></br> - Unique Design <br></br> - Application of Advanced Technologies<br></br> - Research and Analytics <br></br> - SEO Promotion<br></br> - Effective Budget Management<br></br> - Sales Funnel Optimization <br></br> - Copywriting and Rewriting <br></br> - Multimedia Editing <br></br> - Website and Print Design <br></br> - Branding and Corporate Style Development <br></br> - UX and UI Design <br></br> - Web Development and Creation of Interactive Solutions<br></br> - Adaptability to Various Devices <br></br> - CRM System Integration <br></br> - Effective Mailings and Chatbot Usage <br></br> - ... and more"
+  },
+  "Beliefs": {
+    "chapter1": "Business Automation Department",
+    "title1": "Get rid of <ph>manual work</ph>",
+    "description1": "Effective, automatic accounting and financial analysis, as well as numerous opportunities for optimizing business processes and increasing profits.",
+    "chapter2": "Development Department",
+    "title2": "<mm>Development</mm> of IT solutions",
+    "description2": "We specialize in creating websites, mobile applications, innovative Telegram bots, as well as writing scripts to solve your business challenges."
+  },
+  "Ourteam": {
+    "title": "Our team believes that <br></br> you will become the best!",
+    "description": "We strictly adhere to Agile methodology. Agile implies a flexible and iterative development process that allows the client to actively influence the product creation process."
+  },
+  "Cases": {
+    "title": "Cases",
+    "luidom": {
+      "hashtags": "<hashtag>#MyWarehouse</hashtag><hashtag>#Avito</hashtag><hashtag>#Automation</hashtag>",
+      "subtitle": "Integration of MyWarehouse and Avito for the Efficiency of LUIDOM Business",
+      "detailed": "Learn more"
+    },
+    "telegrambot": {
+      "hashtags": "<hashtag>#TelegramBot</hashtag><hashtag>#Automation</hashtag>",
+      "subtitle": "Implementation of Telegram Bot for Organizing Paid Access to a Private Group",
+      "detailed": "Learn more"
+    },
+    "sahttime": {
+      "hashtags": "<hashtag>#Automation</hashtag><hashtag>#MyWarehouse</hashtag><hashtag>#Avito</hashtag><hashtag>#Website</hashtag>",
+      "subtitle": "Basic Package + Integration",
+      "detailed": "Learn more"
+    }
+  },
+  "FAQ": {
+    "title": "Answers to frequently asked <br></br> questions",
+    "chapter1": "How much does it cost to develop a website and how long does it take?",
+    "description1": "It is impossible to answer this question without clarification: it depends on the number of pages (1, 20 or, for example, 500), on the type of design (static or animated), and the availability of technical specifications or at least a general idea of the scope of work.Consider, for example, a business card site of 3-5 pages.  We break it down into categories: Freelance web designers charge an average of 20 thousand, although some may request up to 200 thousand for a landing page.  However, there is a risk of choosing an unreliable performer, and on exchanges only 2-3 out of 100 offers can be normal.  Deadlines are from 3 days, often these are template sites where many stages of work can be omitted.Web agencies or web design studios usually offer prices from 120 to 400 thousand.  It is important to note that they provide guarantees, work officially, and a team of specialists is working on the project, not one 3rd year student of linguistics.  Deadlines range from 30 days, although in large web studios with a large staff, the deadlines may be longer.  Professional agencies are not limited to just design.  They offer a whole cycle of tasks and an analysis system that allows you to create unique projects at a high level.  This includes not only the website, but also business analysis.  Super-creative design agencies, which are among the top 30 web studios on the Runet and provide premium services, can request prices from 500 thousand and above.  Here, payment includes not only the creation of a website, but also branding.  Terms - from 2 months.You can specify the price in our web studio by phone or calculate it yourself approximately.",
+    "chapter2": "How to order a website and what will it take?",
+    "description2": "Before ordering a website, it is important to prepare, especially if you are aiming for a high-quality product, and not for a regular template for minimal money. First of all, study your competitors: evaluate their websites, identify their strengths and weaknesses. Think about what exactly you want from your site, what purpose it should serve. Determine the basic functional requirements, such as feedback forms, the possibility of integrating payment systems, and the need to use a customer data management system (CRM). Gather all this information in a notebook so that you have a clear idea of what you need. This will help you communicate more effectively with developers and avoid misunderstandings in the process of creating a website. After you have prepared and decided on the basic parameters, you will be ready to order a website that meets your requirements and expectations.",
+    "chapter3": "Why are we developing sites on DRF and NextJS?",
+    "description3": "We chose to use Django REST Framework (DRF) to create the backend and Next.js is for the frontend for several important reasons.   <br> </br > 1. The power and Flexibility of DRF: - DRF provides us with powerful tools for creating web APIs.  This is important because we can effectively manage data, ensure its security and easily expand the functionality of our project.<br> </br>  2. Integration with Django: - DRF is deeply integrated with Django, which gives our project stability and reliability.  Django provides ease of development and a clear project structure.  <br></br> 3. Modern Features Of Next.js:- Next.js provides the use of modern technologies for the frontend, such as Server-Side Rendering (SSR) and Static Site Generation (SSG).  This allows us to improve the performance of our site and optimize its loading.  <br></br> 4. Easy Navigation and Responsiveness: - Next.js provides an intuitive way to create site navigation.  It also supports responsive designs, which is important to improve the user experience.  <br></br> 5. SEO-friendly Features: - Both technologies, DRF and Next.js, provide opportunities for creating SEO-friendly web applications.  This is important to increase the visibility of our site in search engines.   <br></br> Combining DRF and Next.js provides us with a balanced and effective toolkit for creating modern and high-performance web applications.  This allows us to achieve our development goals by ensuring the reliability, performance and responsiveness of our web application."
+  },
+  "Navbar": {
+    "aboutUs": "About Us",
+    "services": "Services",
+    "cases": "Cases",
+    "faq": "FAQ"
+  },
+  "ContactForm": {
+    "modalTitle": "NEXUS is cool",
+    "modalDescription": "Would you like to contact us? It's easy, fill out the form below!",
+    "nameLabel": "Your name",
+    "emailLabel": "Your email",
+    "messageLabel": "Your message",
+    "namePlaceholder": "Name...",
+    "emailPlaceholder": "example@email.com",
+    "messagePlaceholder": "Enter a message...",
+    "submitButton": "Send a message",
+    "closeButton": "Close",
+    "responseForm": "The form has been submitted successfully!",
+    "errorForm": "An error occurred when submitting the form. Please try again.",
+    "contactUs": "Contact Us"
+  },
+  "Joinus": {
+    "error": "Error when subscribing. Please try again.",
+    "subscription": "The subscription is successful!",
+    "title": "Take your business <br></br> to a new level",
+    "text": "Subscribe to the newsletter from our company, in which we share: <br></br> news, tips, life hacks and promotions",
+    "placeholderName": "Name",
+    "buttonForm": "Subscribe"
+  },
+  "Luidom": {
+    "heading": "Integration of MySklad and Avito for Business Efficiency of LUIDOM",
+    "hashtags": "<hashtag>#My Layout</hashtag><hashtag>#Avito</hashtag><hashtag>#Automation</hashtag>",
+    "task": "Modernization of the business processes of the LUIDOM tableware store through the integration of the accounting service \"MoiSklad\" and automation of unloading goods on the Avito marketplace.",
+    "characteristics": "Duration: ~1 month.<br></br> Budget: 50, 000₽.<br></br> Team: 1 person",
+    "features": "1.Каталогизация ассортимента: Оприходование около 1000 наименований товаров.<br></br> 2.Структуризация данных поставщиков для точного учёта задолженностей и аналитики.<br></br>3.Загрузка фотографий и базовых характеристик большинства товаров.<br></br> 4.Обучение персонала использованию кассовой системы \"МойСклад\" для предотвращения ошибок в учёте.<br></br> 5.Ежедневная автоматическая выгрузка товаров на Avito, включая фотографии и описания.<br></br>",
+    "decision": "We created a profile of the MySklad service, filled in the necessary owner data and bought a subscription for the right amount of time. Then they immediately began to register the goods...",
+    "results": "The project was completed on time, and the MySklad service is fully integrated into the client's business...",
+    "subtitle1": "Task:",
+    "subtitle2": "Project characteristics:",
+    "subtitle3": "Project features:",
+    "subtitle4": "Solution:",
+    "subtitle5": "Results:"
+  },
+  "Telegrambot": {
+    "heading": "Implementation of a Telegram Bot for Organizing Paid Access to a Private Group",
+    "hashtags": "<hashtag>#TelegramBot</hashtag><hashtag>#Automation</hashtag>",
+    "task": "The team had the task of creating an effective mechanism for paid entry into a private Telegram group. The aim of the project was to integrate the bot with the payment system, provide various tariff plans, send reminders before the subscription expires, moderate user profiles and automatically exclude users from the group at the end of the subscription.",
+    "characteristics": "Duration: ~2 weeks<br></br>Team: 1 person <br></br> ",
+    "features": "1. Registration and integration of the bot with ЮКасса.<br></br>2. Paid entrance at 3 rates. <br></br>3. Sending reminders 3 days before the subscription expires.<br></br>4. Moderation of user profiles by the administrator before payment. <br></br>5. Automatic exclusion from the group at the end of the subscription.\" <br></br>",
+    "decision": "A Telegram bot integrated with ЮКасса has been developed. This bot provides convenient registration, tariff selection and payment for access to a private group. +\n The function of sending notifications 3 days before the end of the subscription has been implemented, which allows users to be aware of the status of their subscription. +\n Moderation of user profiles is carried out by the administrator, where after passing moderation, users can start paying and joining the group. +\n In case of subscription expiration, the bot automatically excludes the user from the group, ensuring the relevance and quality of the content.",
+    "results": "The project has been successfully implemented, providing users with a flexible and effective mechanism for paid entry into a private group. The developed bot provides options for choosing tariff plans, paying for subscriptions, as well as automatic renewal. The administrators of the group received tools for moderation and control of the membership. +\n This project stood out for the successful interaction of the team with the payment system and the ability to develop and implement complex bot logic. As a result, it was possible to improve the security and quality of the private group by automating the process of managing participants.",
+    "subtitle1": "Task:",
+    "subtitle2": "Project characteristics:",
+    "subtitle3": "Project features:",
+    "subtitle4": "Solution:",
+    "subtitle5": "Results:"
+  },
+  "SahtTime": {
+    "heading": "Package Basis + Integration",
+    "hashtags": "<hashtag>#Automation</hashtag><hashtag>#My Account</hashtag><hashtag>#Avito</hashtag> <hashtag>#Website</hashtag>",
+    "task": "If you want your business to have not only competent accounting, but also a place on marketplaces, then this package of services is right for you, we will also be able to integrate the MySklad service with your site. We performed this operation with the Saht Time watch salon.",
+    "characteristics": "Duration ~3 months<br></br> Budget: 400,000₽.<br></br> Team: 3 people",
+    "features": "It is necessary to take into account the entire existing assortment (about 5,000 items!)<br></br> Enter into the database the contractors-suppliers with whom the store works (this is done to accurately account for debts, analytics and restore order in the database)<br></br>Upload a photo of each product, as well as specify the characteristics of the models for their display on the website<br></br> Integrate the MySklad service with Avito and with the store's website<br></br> Come up with a discount system and implement it, divide customers into two types and create a category \"Sale\"<br></br>To train the store staff to use the MoySklad cash register to prevent possible accounting errors<br></br>Develop (online store) a website with the integration of all products from MY store, with the possibility of online payment, etc.<br></br>",
+    "decision": "1. After creating the profile of my warehouse, we immediately proceed to the registration of goods indicating the characteristics of each model.  Since the total number of items is ~5000 units, we will need several employees.  <br></br>We have distributed the roles in a similar way: <br></br>The employee adds the product immediately specifying all the necessary characteristics<br></br>Employee No.2 adds photos and synchronizes information on the site<br></br>Employee No. 3 is engaged in integration with the site and Avito<br></br>2.  All supplier data were also entered into the database, the finance system was established<br></br>3.  The photo upload was completed successfully, almost all products from watches to fasteners have their own photos (saht-time.com )<br></br> 4. We integrated the necessary goods with Avito, at the request of the client himself, we did not ship all the watches.  Every day, the rest of the goods from the categories selected by the customer are shipped.<br></br> 5. A discount system has been created: counterparties A and counterparties B (discounts of -5% and -10%) customers in the category also have a cumulative points system.  Sale goods were also created<br></br> 6. The staff was trained in basic skills of MoySklad and working with the MoySklad cash register<br></br>",
+    "results": "The project was completed on time, and the MySklad service was successfully integrated with the client's website and with Avito.",
+    "subtitle1": "Task:",
+    "subtitle2": "Project characteristics:",
+    "subtitle3": "Project features:",
+    "subtitle4": "Solution:",
+    "subtitle5": "Results:"
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "description1": "This Privacy Policy defines how we, NEXUS, collect, use, process, store and protect the personal data of visitors to our site. We value your privacy and strive to protect your personal information.",
+    "subtitle1": "1. Collecting Information",
+    "points":"1.1. When subscribing to the Newsletter: We collect your email address.<br></br>1.2. When Contacting by Phone: We are collecting your phone number.<br></br>1.3. Through The Feedback Form: We collect your email address and phone number.<br></br>",
+    "subtitle2": " 2.Methods Of Collecting Information",
+    "description2":"We collect information directly from you when filling out forms on our website, when contacting us by phone, and when subscribing to our newsletter.",
+    "subtitle3":"3. Use and Disclosure of Information",
+    "description3": "Your personal data is processed and stored in accordance with applicable law. We use your information solely to provide the requested services and do not disclose it to third parties without your consent, except as required by law.",
+    "subtitle4": "4. Communication with Visitors",
+    "description4":"We may use your contact information to contact you, send information materials and notifications about new services.",
+    "subtitle5": "5. Use of Cookies and Tracking Technologies",
+    "description5": " We may use cookies and other technologies to analyze the use of our site and provide personalized content. You can control the use of cookies through your browser settings.",
+    "subtitle6": "6. Review Agree",
+    "description6": " You can withdraw your consent to the processing of personal data at any time by contacting us using the specified contact details. Revocation of consent may affect your ability to use certain features of our site.",
+    "subtitle7":"7. Changes to the Privacy Policy",
+    "description7": "We reserve the right to change this Privacy Policy at any time. The latest version of the Policy is always available on our website.",
+    "contacts": "Contacts",
+    "text": "If you have any questions or suggestions regarding our Privacy Policy, please contact us.<br> </br> NEXUS adheres to high standards of protection and confidentiality of your data and strives to ensure the security of your personal information."
+  }
+}
+
+
+
+
