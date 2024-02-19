@@ -1,8 +1,6 @@
-"use client"
 import Image from "next/image";
 import Link from "next/link";
 import {useTranslations} from "next-intl";
-import {useState} from "react";
 
 
 interface DataType {
@@ -42,12 +40,6 @@ interface CasesProps {
 const Cases: React.FC<CasesProps> = ({visibleCount}) => {
     const visibleData = typeof visibleCount === "number" ? casesData.slice(0, visibleCount) : casesData;
     const t = useTranslations("Cases");
-
-
-    const [isButtonVisible, setIsButtonVisible] = useState(true);
-    const handleButtonClick = () => {
-        setIsButtonVisible(false);
-    };
 
 
     return (
@@ -102,15 +94,11 @@ const Cases: React.FC<CasesProps> = ({visibleCount}) => {
                 ))}
             </div>
             <div className="text-center mt-8">
-                <Link href="/cases" passHref >
-                    <button
-                        className={`text-xl hover:bg-navyblue navbutton font-semibold lg:px-12 py-4 px-6 rounded-full hover:bg-blue-500 hover:text-white transition-colors bg-white ${!isButtonVisible ? 'hidden' : ''}`}
-                        onClick={handleButtonClick}
-                    >
-                        {t("button")}
-                    </button>
-
-                </Link>
+                {/*<Link href="/cases" passHref >*/}
+                {/*    <button className='text-xl hover:bg-navyblue navbutton font-semibold lg:px-12 py-4 px-6 rounded-full  hover:bg-blue-500 hover:text-white transition-colors bg-white '>*/}
+                {/*        {t("button")}*/}
+                {/*    </button>*/}
+                {/*</Link>*/}
             </div>
         </div>
     );
