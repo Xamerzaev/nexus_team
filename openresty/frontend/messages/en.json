@@ -196,10 +196,9 @@
       "user": " What is included in this package?",
       "button": "Discuss the project",
       "profiles": "24/7 support",
-      "posts": "Inventory of the existing MoiSklad system",
-      "templates": "Goods receipt",
-      "view": "Processing of receipts",
-      "support": "Contractor processing"
+      "container": "<text>Inventory of the already existing MoySklad system</text><text>Registration of goods</text><text>Registration of acceptance</text><text>Registration of counterparties</text>"
+
+
     },
     "block2": {
       "heading": "Foundation",
@@ -207,10 +206,8 @@
       "user": " What is included in this package?",
       "button": "Discuss the project",
       "profiles": "Creating MoiSklad system from scratch and customizing it for you",
-      "posts": "Inventory",
-      "templates": "Goods receipt",
-      "view": "Goods acceptance",
-      "support": "Contractor processing"
+      "container": "<text>Inventory</text><text>Registration</text><text>Acceptance of goods</text><text>Registration of counterparties</text>"
+
     },
     "block3": {
       "heading": "Foundation + Integration",
@@ -218,8 +215,9 @@
       "user": " What is included in this package?",
       "button": "Discuss the project",
       "profiles": "Services from the Foundation",
-      "posts": "Integration of MoiSklad with marketplaces and your website",
-      "support": "24/7 VIP support"
+      "container": "<text>Integration of MoiSklad with marketplaces and your website</text><text>24/7 VIP support</text>"
+
+
     },
     "block4": {
       "heading": "Website",
@@ -227,10 +225,7 @@
       "user": " The price depends on complexity",
       "button": "Discuss the project",
       "profiles": "Landing page",
-      "posts": "Corporate website",
-      "templates": "Business card website",
-      "view": "Online store",
-      "support": "Websites for online schools, etc."
+      "container": "<text>Corporate website</text><text>Business card website</text><text>Online store</text><text>Websites of online schools and so on.</text>"
     },
     "block5": {
       "heading": "Services/Scripts",
@@ -238,10 +233,8 @@
       "user": " The price depends on complexity",
       "button": "Discuss the project",
       "profiles": "Data processing:",
-      "posts": "Web scraping and web automation",
-      "templates": "API integration",
-      "view": "Machine learning and data analysis",
-      "support": "Services with databases, etc."
+      "container": "<text>Web scraping and web automation</text><text>API integration</text><text>Machine learning and data analysis</text><text>Services with databases, etc.</text>"
+
     },
     "block6": {
       "heading": "Telegram Bot",
@@ -249,10 +242,7 @@
       "user": " The price depends on complexity",
       "button": "Discuss the project",
       "profiles": "Text bots",
-      "posts": "Interactive bots with buttons",
-      "templates": "Bots with image or multimedia processing:",
-      "view": "Artificial intelligence and machine learning",
-      "support": "Integration with external services and APIs, etc."
+      "container": "<text>Interactive bots with buttons</text><text>Bots with image processing or multimedia:</text><text>Artificial intelligence and machine learning</text><text>Integration with external services and APIs, etc.</text>"
     }
   }
 }
