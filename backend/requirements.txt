@@ -1,4 +1,5 @@
 --index-url=https://pypi.org/simple/
+python-dotenv
 asgiref==3.7.2
 gunicorn
 anyio==4.1.0
