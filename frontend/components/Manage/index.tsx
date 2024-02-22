@@ -115,10 +115,10 @@ const Manage = () => {
                             </button>
                             <hr style={{color: "darkgrey", width: "50%", margin: "auto"}}/>
                             <h3 className='text-sm font-medium text-darkgrey mb-3 mt-6'>{t(`${items.key}.profiles`)}</h3>
-                            <h3 className='text-sm font-medium text-darkgrey mb-3'>{t(`${items.key}.posts`)}</h3>
-                            <h3 className='text-sm font-medium text-darkgrey mb-3'>{t(`${items.key}.templates`)}</h3>
-                            <h3 className='text-sm font-medium text-darkgrey mb-3'>{t(`${items.key}.view`)}</h3>
-                            <h3 className='text-sm font-medium text-darkgrey mb-3'>{t(`${items.key}.support`)}support</h3>
+                            {t.rich (`${items.key}.container`, {
+                                text: (chunks) =>
+                            <h3 className='text-sm font-medium text-darkgrey mb-3'>{chunks}</h3>
+                            })}
                         </div>
                     ))}
                 </div>
