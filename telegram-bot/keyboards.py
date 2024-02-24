@@ -4,7 +4,7 @@ from aiogram import types
 # Функция для создания клавиатуры стартового экрана
 def get_start_keyboard():
     keyboard = types.ReplyKeyboardMarkup(
-        resize_keyboard=True, one_time_keyboard=True)
+        resize_keyboard=True, one_time_keyboard=False)
     keyboard.add(types.KeyboardButton("📧 Рассылка"))
     return keyboard
 
