@@ -1,10 +1,11 @@
-from aiogram import Bot, Dispatcher, executor
-from aiogram.contrib.middlewares.logging import LoggingMiddleware
-from aiogram.contrib.fsm_storage.memory import MemoryStorage
-from data import config
-from handlers import start, newsletter, callback_handlers
 import logging
 
+from aiogram import Bot, Dispatcher, executor
+from aiogram.contrib.fsm_storage.memory import MemoryStorage
+from aiogram.contrib.middlewares.logging import LoggingMiddleware
+
+from data import config
+from handlers import callback_handlers, newsletter, start
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=config.API_TOKEN)
@@ -19,4 +20,3 @@ callback_handlers.register_handlers(dp)
 
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates=True)
-
