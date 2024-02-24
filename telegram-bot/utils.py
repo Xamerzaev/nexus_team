@@ -2,6 +2,7 @@ import asyncio
 import re
 import sqlite3
 from email.mime.multipart import MIMEMultipart
+from email.mime.image import MIMEImage
 from email.mime.text import MIMEText
 
 import aiosmtplib
@@ -15,11 +16,40 @@ bot = Bot(token=config.API_TOKEN)
 
 # Асинхронная функция для отправки электронного письма
 async def send_email_async(subject, recipient, message_text):
-    msg = MIMEMultipart()
+    # Относительный путь к файлу изображения
+    image_path = "images\\channels4_profile.jpg"
+
+    # Создаем основное сообщение
+    msg = MIMEMultipart('related')
     msg["From"] = config.SMTP_USERNAME
     msg["To"] = recipient
     msg["Subject"] = subject
-    msg.attach(MIMEText(message_text, "plain"))
+
+    # Тело письма в формате HTML
+    html = f"""
+<body>
+    <div class="message-text" style="margin-top: 5px; margin-bottom: 150px;">
+        <p>{message_text}</p>
+    </div>
+    <div style="display: flex; align-items: center; margin-left: 10px;">
+        <img src="cid:image1" alt="Логотип" style="width: 60px; height: 60px;"/>
+        <div style="margin-left: 10px;">
+            <div style="color: #00008B; font-weight: bold; font-size: 1.2em;">IT-Агентство NEXUS</div>
+            <div style="color: #00008B; font-weight: bold; font-size: 1em;">Обратная связь</div>
+            <div style="font-size: 1em;">Звоните: +7 905 040-40-47<br>Пишите: nexuspc.ru@yandex.ru</div>
+        </div>
+    </div>
+</body>
+"""
+    msg.attach(MIMEText(html, "html"))
+
+
+    # Читаем изображение и добавляем его как вложение
+    with open(image_path, "rb") as fp:
+        image_attachment = MIMEImage(fp.read())
+        image_attachment.add_header("Content-ID", "<image1>")
+        msg.attach(image_attachment)
+
 
     try:
         async with aiosmtplib.SMTP(
