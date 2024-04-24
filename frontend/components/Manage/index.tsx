@@ -97,7 +97,7 @@ const Manage = () => {
                             } inline-block h-4 w-4 transform rounded-full bg-white transition`}
                             />
                         </Switch>
-                        <h3 className='text-sm font-medium ml-5'>{t('chapter1')}</h3>
+                        <h3 className='text-sm font-medium ml-5'>{t('chapter2')}</h3>
                     </div>
                 </div>
 
@@ -118,7 +118,7 @@ const Manage = () => {
                             <h3 className='text-sm font-medium text-darkgrey mb-3'>{t(`${items.key}.posts`)}</h3>
                             <h3 className='text-sm font-medium text-darkgrey mb-3'>{t(`${items.key}.templates`)}</h3>
                             <h3 className='text-sm font-medium text-darkgrey mb-3'>{t(`${items.key}.view`)}</h3>
-                            <h3 className='text-sm font-medium text-darkgrey mb-3'>{t(`${items.key}.support`)}support</h3>
+                            <h3 className='text-sm font-medium text-darkgrey mb-3'>{t(`${items.key}.support`)}</h3>
                         </div>
                     ))}
                 </div>
